@@ -54,7 +54,7 @@ const initializeDirectories = () => {
   // Create main organized folder
   if (!fs.existsSync(organizedDir)) {
     fs.mkdirSync(organizedDir, { recursive: true });
-  }
+  }eswxaer345
 
   // Create subfolders for each category
   Object.keys(categories).forEach((category) => {
